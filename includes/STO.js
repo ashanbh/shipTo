@@ -121,10 +121,10 @@
             //This basically gets ignored
             //Parent of STO is _ST_GLOBAL_.
         };
-    STO.isNamespace = true,
-        STO.getNSName = function () {
-            return "STO";
-        };
+    STO.isNamespace = true;
+    STO.getNSName = function () {
+        return "STO";
+    };
     STO.toString = function () {
         return "STO";
     };
